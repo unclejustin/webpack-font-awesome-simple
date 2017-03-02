@@ -1,0 +1,25 @@
+{
+  "name": "webpack-font-awesome-test",
+  "version": "1.0.0",
+  "author": "Justin Boyson <unclejustin@gmail.com>",
+  "description": "Simple webpack font-awesome integration",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://test.com/repo.git"
+  },
+  "scripts": {
+    "dev": "webpack -d",
+    "dist": "webpack -p"
+  },
+  "dependencies": {
+    "css-loader": "^0.26.2",
+    "extract-text-webpack-plugin": "^2.0.0",
+    "file-loader": "^0.10.1",
+    "font-awesome": "^4.7.0",
+    "style-loader": "^0.13.2",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {}
+}
